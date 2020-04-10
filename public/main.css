@@ -1,0 +1,9 @@
+.character img {
+  max-width: 150px;
+}
+
+.character {
+  display: inline-block;
+  border: none;
+  background: transparent;
+}

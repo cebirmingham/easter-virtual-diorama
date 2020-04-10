@@ -1,10 +1,10 @@
 const characters = document.querySelectorAll('[data-character-id]');
 
-async function askQuestion({target}) {
-  const characterId = target.dataset.characterId;
+async function askQuestion({currentTarget}) {
+  const characterId = currentTarget.dataset.characterId;
+
   const fetchResponse = await fetch(`/question?id=${characterId}`);
   const response = await fetchResponse.json();
-
   if (response.tired) {
     console.log('man i am super tired');
   }
