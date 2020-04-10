@@ -1,0 +1,122 @@
+[
+  {
+    "id": "maga",
+    "name": "chuck",
+    "species": "rabbit",
+    "description": "a MAGA supporting rabbit from the mid-west of the usa, chuck is on his annual Mexican vacation and complaining that all the hotel staff are speaking Spanish"
+  },
+  {
+    "id": "hippy",
+    "name": "skye",
+    "species": "egg",
+    "description": "a travelling hippy who came to this part of the world to save the sea turtles, but who also finds time to buy healing crystals mined by impoverished children"
+  },
+  {
+    "id": "gapyear",
+    "name": "algernon",
+    "species": "rabbit",
+    "description": "went to harrow and has never got over not being accepted to eton. read history of art at cambridge and got a first, and is travelling to avoid having to work at his stepfather's bank"
+  },
+  {
+    "id": "bigtequila",
+    "name": "alejandro",
+    "species": "egg",
+    "description": "recruited by the tequila regulatory council out of university, alejandro has worked his way up over 20 years. reads a lot of russian literature, particularly dostoyevsky"
+  },
+  {
+    "id": "lad1",
+    "name": "paul 'shagger' jones",
+    "species": "egg",
+    "description": "no-one has met paul's much older girlfriend. he insists that she is real but reverse image searching her picture returns results for a modelling agency"
+  },  
+  {
+    "id": "lad2",
+    "name": "mark 'doggo' smith",
+    "species": "egg",
+    "description": "perpetually smells of wet dog, even straight out of the shower"
+  },
+  {
+    "id": "lad3",
+    "name": "steve 'steevo' owens",
+    "species": "egg",
+    "description": "has no discernable personality"
+  },
+  {
+    "id": "lad4",
+    "name": "chris 'bogie' green",
+    "species": "egg",
+    "description": "is known to eat his own snot for a tenner"
+  },
+  {
+    "id": "lad5",
+    "name": "tom 'wildman' stevens",
+    "species": "egg",
+    "description": "once got lost on a camping trip and didn't turn up for 3 days"
+  },
+  {
+    "id": "lad6",
+    "name": "sam 'chugger' thomas",
+    "species": "egg",
+    "description": "can down anything"
+  },
+  {
+    "id": "influencer1",
+    "name": "lacey",
+    "species": "rabbit",
+    "description": "aspiring influencer from london. has posted eight instagram stories about having to pay for her room at the hotel"
+  },
+  {
+    "id": "influencer2",
+    "name": "marissa",
+    "species": "egg",
+    "description": "aspiring influencer from slough. runs a relatively successful vegan recipe site but often seen eating a big mac when drunk"
+  },
+  {
+    "id": "vicar1",
+    "name": "david",
+    "species": "egg",
+    "description": "on a trip to see good work done by local churches. struggling to maintain his vow of celibacy"
+  },
+  {
+    "id": "vicar2",
+    "name": "valerie",
+    "species": "egg",
+    "description": "making the most of a church-funded trip"
+  },
+  {
+    "id": "australian",
+    "name": "zoe",
+    "species": "rabbit",
+    "description": "left australia to see the world. bartending to make enough money to get to vietnam. occassional drug mule"
+  },  
+  {
+    "id": "mum",
+    "name": "suzanne",
+    "species": "rabbit",
+    "description": "the mum of malcolm, miles, and milly. enjoys baking and trolling people on reddit"
+  },
+  {
+    "id": "dad",
+    "name": "christian",
+    "species": "rabbit",
+    "description": "very quiet and a hands-off dad. no-one knows why he spends so much time in the potting shed"
+  },
+  {
+    "id": "kid1",
+    "name": "malcolm",
+    "species": "rabbit",
+    "description": "twin of miles, 8 year old malcolm likes transformers and the bible"
+  },
+  {
+    "id": "kid2",
+    "name": "miles",
+    "species": "rabbit",
+    "description": "twin of malcolm, 8 year old miles like cabbage patch dolls and judo"
+  },
+  {
+    "id": "kid3",
+    "name": "milly",
+    "species": "rabbit",
+    "description": "the youngest of the family, 5 year old milly is mostly interested in true crime and swimming"
+  }
+]
