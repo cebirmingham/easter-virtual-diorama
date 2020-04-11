@@ -1,9 +1,200 @@
 .character img {
-  max-width: 150px;
+  width: 100%;
 }
 
 .character {
-  display: inline-block;
+  width: 150px;
+  position: absolute;
+  display: block;
   border: none;
   background: transparent;
+  z-index: 1;
+}
+.prop img {
+  width: 100%;
+}
+
+.prop {
+  width: 150px;
+  position: absolute;
+  display: block;
+  border: none;
+  background: transparent;
+  z-index: 1;
+}
+
+.scene {
+  background-color: #f6e9c8;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.scene::before {
+  background-color: #549ae7;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 23%
+}
+
+.scene::after {
+  background-color: #8eb4e8;
+  position: absolute;
+  bottom: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 33%
+}
+
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.prop--sun{
+  width: 7%;
+  top: 2%;
+  right: 2%;
+}
+
+.prop--palm1 {
+  left: -1%;
+  bottom: 72%;
+  transform: rotate(-10deg);
+  z-index: 2;
+}
+
+.prop--palm2 {
+  right: 5%;
+  bottom: 60%
+}
+
+.prop--palm3 {
+  right: 12%;
+  bottom: 58%;
+  transform: scaleX(-1);
+
+}
+
+.character--influencer1 {
+  width: 12%;
+  right: 15%;
+  bottom: 10%;
+}
+.character--influencer2 {
+  width: 12%;
+  right: 5%;
+  bottom: 15%;
+}
+
+.character--mum {
+  width: 18%;
+  left: 2%;
+  bottom: 15%;
+}
+.character--dad {
+  width: 12%;
+  left: 18%;
+  bottom: 10%;
+}
+.character--kid1 {
+  width: 10%;
+  left: 27%;
+  bottom: 5%;
+}
+.character--kid2 {
+  width: 10%;
+  left: 34%;
+  bottom: 15%;
+}
+.character--kid3 {
+  width: 10%;
+  left: 41%;
+  bottom: 5%;
+}
+
+.character--maga {
+  width: 12%;
+  right: 20%;
+  bottom: 50%; 
+}
+
+.character--hippy {
+  width: 15%;
+  right: 38%;
+  bottom: 36%; 
+}
+
+.character--gapyear {
+  width: 9%;
+  left: 38%;
+  bottom: 34%; 
+  transform: scaleX(-1);
+}
+.character--lad2 {
+  width: 8%;
+  left: 2%;
+  bottom: 52%;
+}
+.character--lad5 {
+  width: 8%;
+  left: 7%;
+  bottom: 52%;
+}
+.character--lad3 {
+  width: 8%;
+  left: 12%;
+  bottom: 52%;
+}
+.character--lad6 {
+  width: 8%;
+  left: 4%;
+  bottom: 44%;
+  z-index: 2;
+}
+.character--lad4 {
+  width: 8%;
+  left: 9%;
+  bottom: 45%;
+  z-index: 2;
+}
+.character--lad1 {
+  width: 8%;
+  left: 14.5%;
+  bottom: 45%;
+  z-index: 3;
+}
+.character--vicar1 {
+  width: 5.5%;
+  right: 32.5%;
+  bottom: 78%;
+  overflow: hidden;
+}
+.character--vicar2 {
+  width: 5.5%;
+  right: 38%;
+  bottom: 78%;
+  overflow: hidden;
+}
+.character--vicar1 img{
+  width: 200%;
+  margin-left: -95%;
+}
+.character--vicar2 img {
+  width: 200%;
+  margin-left: 26%;
+}
+.character--bigtequila{
+  width: 9%;
+  left: 22%;
+  bottom: 66%;
+}
+.character--australian {
+  width: 17%;
+  left: 5%;
+  bottom: 72%;
 }
