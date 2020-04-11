@@ -61,6 +61,10 @@ html, body {
   right: 2%;
 }
 
+.prop--palm {
+  width: 11%;
+}
+
 .prop--palm1 {
   left: -1%;
   bottom: 72%;
