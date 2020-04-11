@@ -120,19 +120,19 @@ html, body {
 .character--maga {
   width: 12%;
   right: 20%;
-  bottom: 50%; 
+  bottom: 50%;
 }
 
 .character--hippy {
   width: 15%;
   right: 38%;
-  bottom: 36%; 
+  bottom: 36%;
 }
 
 .character--gapyear {
   width: 9%;
   left: 38%;
-  bottom: 34%; 
+  bottom: 34%;
   transform: scaleX(-1);
 }
 .character--lad2 {
@@ -197,4 +197,62 @@ html, body {
   width: 17%;
   left: 5%;
   bottom: 72%;
+}
+
+
+/* Modals */
+.modal {
+  border: none;
+  max-width: 60%;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.modal::backdrop {
+  background: rgba(0, 0, 0, .5);
+}
+
+.modal__section {
+  text-align: center;
+  font-size: 6vh;
+}
+.modal__section > * {
+  margin: 0;
+}
+
+.modal__menu {
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.modal--question .modal__menu {
+  justify-content: space-between;
+}
+
+.modal__button {
+  padding: 0 10px;
+  background-color: #8eb4e8;
+  border: 2px solid transparent;
+  font-size: 4vh;
+  line-height: 6vh;
+}
+.modal__button:focus {
+  outline: none;
+  border-color: #549ae7;
+}
+
+.modal__button--correct {
+  color: #fff;
+  background-color: #349c37;
+}
+.modal__button--correct:focus {
+  border-color: #267929;
+}
+
+.modal__button--incorrect {
+  color: #fff;
+  background-color: #d72c2c;
+}
+.modal__button--incorrect:focus {
+  border-color: #981818;
 }
