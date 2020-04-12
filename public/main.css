@@ -29,28 +29,36 @@
 }
 
 .scene {
-  background-color: #f6e9c8;
+  background-color: #549ae7;
   position: relative;
   width: 100%;
   height: 100%;
 }
 
 .scene::before {
-  background-color: #549ae7;
-  content: '';
-  display: block;
-  width: 100%;
-  height: 23%
-}
-
-.scene::after {
-  background-color: #8eb4e8;
+  background-image: url('/scene/sand.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   position: absolute;
   bottom: 0;
   content: '';
   display: block;
   width: 100%;
-  height: 33%
+  height: 86%;
+}
+
+.scene::after {
+  background-image: url('/scene/sea.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 45%
 }
 
 
