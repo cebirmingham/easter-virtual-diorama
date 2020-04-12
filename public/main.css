@@ -232,11 +232,33 @@ html, body {
   background: rgba(0, 0, 0, .5);
 }
 
-.modal__section {
+.modal__character {
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+.modal__character-image {
+  margin-right: 20px;
+}
+.modal__character-image img {
+  max-width: 20vh;
+  max-height: 20vh;
+  display: block;
+}
+.modal__character-name {
+  font-size: 4vh;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+.modal__character-description {
+  font-size: 3vh;
+  margin: 0;
+}
+
+.modal__message {
   text-align: center;
   font-size: 6vh;
-}
-.modal__section > * {
   margin: 0;
 }
 

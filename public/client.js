@@ -69,7 +69,7 @@ class Modal {
     this.dialog.innerHTML = `
       <section class="modal__section">
       ${this.character ? this.constructCharacter() : ''}
-        <p>${this.message}</p>
+        <p class="modal__message">${this.message}</p>
       </section>
     `;
 
@@ -84,9 +84,13 @@ class Modal {
   constructCharacter() {
     return `
       <div class="modal__character">
-        <img src="/cast/${this.character.id}.png"/>
-        <p>${this.character.name}</p>
-        <p>${this.character.description}</p>
+        <div class="modal__character-image">
+          <img src="/cast/${this.character.id}.png" alt="${this.character.name}"/>
+        </div>
+        <div class="modal__character-details">
+          <p class="modal__character-name">${this.character.name}</p>
+          <p class="modal__character-description">${this.character.description}</p>
+        </div>
       </div>
     `;
   }
