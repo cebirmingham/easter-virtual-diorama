@@ -9,7 +9,7 @@
     "id": "hippy",
     "name": "skye",
     "species": "rabbit",
-    "description": "a travelling hippy who came to this part of the world to save the sea turtles, but who also finds time to buy healing crystals mined by impoverished children"
+    "description": "a travelling hippy who came to save the sea turtles. Also finds time to buy healing crystals mined by impoverished children"
   },
   {
     "id": "gapyear",
@@ -87,7 +87,7 @@
     "id": "australian",
     "name": "zoe",
     "species": "rabbit",
-    "description": "left australia to see the world. bartending to make enough money to get to vietnam. occassional drug mule"
+    "description": "left australia to see the world. bartending to make enough money to get to palau. occasional drug mule"
   },  
   {
     "id": "mum",
@@ -105,13 +105,13 @@
     "id": "kid1",
     "name": "malcolm",
     "species": "rabbit",
-    "description": "twin of miles, 8 year old malcolm likes transformers and the bible"
+    "description": "twin of miles, 8 year old malcolm likes transformers and the Old Testament"
   },
   {
     "id": "kid2",
     "name": "miles",
     "species": "rabbit",
-    "description": "twin of malcolm, 8 year old miles like cabbage patch dolls and judo"
+    "description": "twin of malcolm, 8 year old miles like cabbage patch dolls and MMA"
   },
   {
     "id": "kid3",

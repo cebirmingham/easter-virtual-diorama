@@ -1,6 +1,112 @@
 [
   {
     "theme": "task",
+    "question": "close your eyes. third person to put their hand on their head wins.",
+    "answer": null,
+    "askers": [
+      "mum",
+      "dad",
+      "australian",
+      "kid1",
+      "kid2",
+      "kid3"
+    ]
+  },
+  {
+    "theme": "task",
+    "question": "get a fruit/vegetable and draw a face on it. best face wins. you have 1 minute",
+    "answer": null,
+    "askers": [
+      "mum",
+      "dad",
+      "australian",
+      "influencer1",
+      "influencer2"
+    ]
+  },
+  {
+    "theme": "task",
+    "question": "draw the best mexican flag. you have 30 seconds",
+    "answer": null,
+    "askers": [
+      "hippy",
+      "australian",
+      "gapyear",
+      "kid1",
+      "kid2",
+      "kid3"
+    ]
+  },
+  {
+    "theme": "task",
+    "question": "put on the most jumpers. you have 1 minute",
+    "answer": null,
+    "askers": [
+      "lad1",
+      "lad2",
+      "lad3",
+      "lad4",
+      "lad5",
+      "lad6",
+      "australian",
+      "gapyear"
+    ]
+  },
+  {
+    "theme": "task",
+    "question": "I went to see some lovely waterfalls yesterday. Let's recreate them. Virtual waterfall!!",
+    "answer": null,
+    "askers": [
+      "lad1",
+      "lad2",
+      "lad3",
+      "lad4",
+      "lad5",
+      "lad6",
+      "australian",
+      "gapyear"
+    ]
+  },
+  {
+    "theme": "task",
+    "question": "I went to see some lovely waterfalls yesterday. Let's recreate them. Virtual waterfall!!",
+    "answer": null,
+    "askers": [
+      "lad1",
+      "lad2",
+      "lad3",
+      "lad4",
+      "lad5",
+      "lad6",
+      "australian",
+      "gapyear"
+    ]
+  },
+  {
+    "theme": "task",
+    "question": "I went to see some lovely waterfalls yesterday. Let's recreate them. Virtual waterfall!!",
+    "answer": null,
+    "askers": [
+      "lad1",
+      "lad2",
+      "lad3",
+      "lad4",
+      "lad5",
+      "lad6",
+      "australian",
+      "gapyear"
+    ]
+  },
+  {
+    "theme": "task",
+    "question": "chug. (5 seconds)",
+    "answer": null,
+    "askers": [
+      "lad6"
+    ]
+  },
+  {
+    "theme": "task",
     "isPermanent": true,
     "question": "i’m not here on holiday. i am a member of the Tequila Regulatory Council and responsible for monitoring tequila quality at a random sample of beach resorts. I’ve just arrived and am about to do an initial tasting - you should have some too!",
     "answer": null,
@@ -51,13 +157,10 @@
   },
   {
     "theme": "easter",
-    "question": "what was the purpose of the Easter Act passed in 1928 by parliament in the UK?",
-    "answer": "to establish a fixed date for easter",
+    "question": "i saw this video on youtube, the End of the CABAL, guess who is going to replace Donald Trump?",
+    "answer": "jfk junior - everyone thinks he died in 1999 but he is going to use time travel to jump to a different timeline",
     "askers": [
-      "mum",
-      "dad",
-      "vicar1",
-      "vicar2"
+      "maga"
     ]
   },
   {
@@ -141,16 +244,6 @@
       "vicar1",
       "vicar2",
       "hippy"
-    ]
-  },
-  {
-    "theme": "easter",
-    "question": "how much does the worlds biggest easter egg weigh?",
-    "answer": "the Vegreville Pysanka weighs 5000lb or 2268kg",
-    "askers": [
-      "vicar1",
-      "vicar2",
-      "maga"
     ]
   },
   {
@@ -327,7 +420,7 @@
   {
     "theme": "mexico",
     "question": "what are the ingredients of guacamole as per the G-U-A-C-A-M-O-L-E guacamole song?",
-    "answer": "avocado, diced tomato, onions, chilis, garlic, salt, pepper, cilantro and a little lime juice to retain colour",
+    "answer": "avocado, diced tomato, onions, chillis, garlic, salt, pepper, cilantro and a little lime juice to retain colour",
     "askers": [
       "gapyear",
       "australian",
