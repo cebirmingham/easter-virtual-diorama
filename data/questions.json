@@ -62,7 +62,7 @@
   },
   {
     "theme": "easter",
-    "question": "how many creme eggs are made each year?",
+    "question": "in millions, how many creme eggs are made each year?",
     "answer": "500 million",
     "askers": [
       "kid1",
@@ -75,7 +75,7 @@
   },
   {
     "theme": "easter",
-    "question": "at easter, we americans will eat enough jelly beans to go around the world three times - how many jelly beans is that?",
+    "question": "at easter, americans will eat enough jelly beans to go around the world three times - how many million jelly beans is that?",
     "answer": "16 million",
     "askers": [
       "maga",
@@ -155,7 +155,7 @@
   },
   {
     "theme": "easter",
-    "question": "how much money do americans spend on candy at easter?",
+    "question": "to the nearest billion, how much money do americans spend on candy at easter?",
     "answer": "$1.9 billion",
     "askers": [
       "mum",
@@ -221,7 +221,7 @@
   },
   {
     "theme": "mexico",
-    "question": "as of 2017, how many US born people were resident in mexico?",
+    "question": "as of 2017, to the nearest 1000, how many US born people were resident in mexico?",
     "answer": "899,311",
     "askers": [
       "maga",
@@ -292,7 +292,7 @@
   },
   {
     "theme": "mexico",
-    "question": "how many kilometres of coastline does mexico have?",
+    "question": "to the nearest thousand, how many kilometres of coastline does mexico have?",
     "answer": "11,000 kilometres",
     "askers": [
       "dad",
@@ -340,7 +340,7 @@
   },
   {
     "theme": "mexico",
-    "question": "how many dogs are there in mexico?",
+    "question": "in millions, how many dogs are there in mexico?",
     "answer": "23 million ",
     "askers": [
       "kid1",
