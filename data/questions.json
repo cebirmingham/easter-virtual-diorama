@@ -247,9 +247,32 @@
     ]
   },
   {
-    "theme": "easter",
-    "question": "to the nearest billion, how much money do americans spend on candy at easter?",
-    "answer": "$1.9 billion",
+    "theme": "tigerking",
+    "question": "what were the two potential ways that carole baskin disposed of her second husband",
+    "answer": "she fed him to the tigers or she buried him in the septic tank",
+    "askers": [
+      "mum",
+      "inflencer1",
+      "inflencer2",
+      "maga",
+      "hippy"
+    ]
+  },
+  {
+    "theme": "tigerking",
+    "question": "name one of joe exotic's songs",
+    "answer": "one of ‘pretty woman lover’,‘how was i to know’,‘say something’,‘this is my life’,‘john finlay’,‘because you love me’,‘i saw a tiger’,‘here kitty kitty’",
+    "askers": [
+      "mum",
+      "dad",
+      "maga",
+      "hippy"
+    ]
+  },
+  {
+    "theme": "tigerking",
+    "question": "what was the name of carole baskin's original wildlife park?",
+    "answer": "wildlife on easy street",
     "askers": [
       "mum",
       "dad",
@@ -381,16 +404,6 @@
       "lad4",
       "lad5",
       "lad6"
-    ]
-  },
-  {
-    "theme": "mexico",
-    "question": "to the nearest thousand, how many kilometres of coastline does mexico have?",
-    "answer": "11,000 kilometres",
-    "askers": [
-      "dad",
-      "vicar1",
-      "vicar2"
     ]
   },
   {
