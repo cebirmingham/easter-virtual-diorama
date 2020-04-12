@@ -1,4 +1,10 @@
 const characters = document.querySelectorAll('[data-character-id]');
+const alejandroButton = document.querySelector('[data-character-id=bigtequila]');
+const alejandro = {
+  id: alejandroButton.dataset.characterId,
+  name: alejandroButton.dataset.characterName,
+  description: alejandroButton.dataset.characterDescription,
+};
 
 async function askQuestion({currentTarget}) {
   const character =  {
@@ -21,7 +27,8 @@ async function askQuestion({currentTarget}) {
   else if (response.finished) {
     modal = new Modal({
       type: 'finished',
-      message: 'looks like i\'m the only one still standing - maybe we should stop! i am here in a professional capacity after all.'
+      message: 'looks like i\'m the only one still standing - maybe we should stop! i am here in a professional capacity after all.',
+      character: alejandro
     });
     currentTarget.disabled = true;
   }
