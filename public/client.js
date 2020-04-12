@@ -28,7 +28,8 @@ async function askQuestion({currentTarget}) {
   else if (response.question) {
     modal = new QuestionModal({
       type: 'question',
-      message: response.question
+      message: response.question,
+      answer: response.answer
     });
   }
   modal.open();
@@ -97,6 +98,11 @@ class Modal {
 
 class QuestionModal extends Modal {
 
+  constructor(options = {}) {
+    super(options);
+    this.answer = options.answer;
+  }
+
   constructButtons() {
     const incorrectButton = document.createElement('button');
     incorrectButton.classList.add('modal__button');
@@ -104,6 +110,11 @@ class QuestionModal extends Modal {
     incorrectButton.textContent = 'incorrect';
     incorrectButton.addEventListener('click', () => {
       this.close();
+      const modal = new Modal({
+        type: 'incorrect',
+        message: 'the answer is: ' + this.answer
+      });
+      modal.open();
     });
     this.menu.appendChild(incorrectButton);
     const correctButton = document.createElement('button');
@@ -112,6 +123,11 @@ class QuestionModal extends Modal {
     correctButton.textContent = 'correct';
     correctButton.addEventListener('click', () => {
       this.close();
+      const modal = new Modal({
+        type: 'correct',
+        message: 'well done! it is ' + this.answer
+      });
+      modal.open();
     });
     this.menu.appendChild(correctButton);
   }

@@ -207,10 +207,22 @@ html, body {
 /* Modals */
 .modal {
   border: none;
+  border-radius: 20px;
   max-width: 60%;
   padding: 20px;
   font-family: sans-serif;
 }
+
+.modal--incorrect {
+  border: 5px solid #981818;
+  box-shadow: 0px 0px 15px 5px #d72c2c;
+}
+
+.modal--correct {
+  border: 5px solid #267929;
+  box-shadow: 0px 0px 15px 5px #349c37;
+}
+
 .modal::backdrop {
   background: rgba(0, 0, 0, .5);
 }
@@ -235,6 +247,7 @@ html, body {
 
 .modal__button {
   padding: 0 10px;
+  border-radius: 10px;
   background-color: #8eb4e8;
   border: 2px solid transparent;
   font-size: 4vh;
