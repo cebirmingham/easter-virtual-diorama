@@ -19,6 +19,12 @@ async function askQuestion({currentTarget}) {
       message: 'looks like i\'m the only one still standing - maybe we should stop! i am here in a professional capacity after all.'
     });
   }
+  else if (response.question && response.theme === 'task') {
+    modal = new Modal({
+      type: 'task',
+      message: response.question
+    });
+  }
   else if (response.question) {
     modal = new QuestionModal({
       type: 'question',
