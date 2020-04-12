@@ -10,6 +10,11 @@
   background: transparent;
   z-index: 1;
 }
+
+.character[disabled] {
+  filter: blur(2px) grayscale(20%);
+}
+
 .prop img {
   width: 100%;
 }

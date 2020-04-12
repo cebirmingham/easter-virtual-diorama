@@ -1,5 +1,6 @@
 const express = require ('express');
 const expressHandlebars = require('express-handlebars');
+const cast = require('./data/cast.json');
 const question = require('./lib/getQuestionToBeAsked');
 const app = express();
 
@@ -13,7 +14,8 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
   res.render('beach', {
-    title: 'beach'
+    title: 'beach',
+    cast: cast
   })
 });
 

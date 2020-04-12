@@ -1,35 +1,43 @@
 const characters = document.querySelectorAll('[data-character-id]');
 
 async function askQuestion({currentTarget}) {
-  const characterId = currentTarget.dataset.characterId;
-
-  const fetchResponse = await fetch(`/question?id=${characterId}`);
+  const character =  {
+    id: currentTarget.dataset.characterId,
+    name: currentTarget.dataset.characterName,
+    description: currentTarget.dataset.characterDescription,
+  }
+  const fetchResponse = await fetch(`/question?id=${character.id}`);
   const response = await fetchResponse.json();
 
   let modal;
   if (response.tired) {
     modal = new Modal({
       type: 'tired',
-      message: 'man i am super tired'
+      message: 'man i am super tired',
+      character
     });
+    currentTarget.disabled = true;
   }
   else if (response.finished) {
     modal = new Modal({
       type: 'finished',
       message: 'looks like i\'m the only one still standing - maybe we should stop! i am here in a professional capacity after all.'
     });
+    currentTarget.disabled = true;
   }
   else if (response.question && response.theme === 'task') {
     modal = new Modal({
       type: 'task',
-      message: response.question
+      message: response.question,
+      character
     });
   }
   else if (response.question) {
     modal = new QuestionModal({
       type: 'question',
       message: response.question,
-      answer: response.answer
+      answer: response.answer,
+      character
     });
   }
   modal.open();
@@ -45,6 +53,7 @@ class Modal {
   constructor(options = {}) {
     this.type = options.type;
     this.message = options.message;
+    this.character = options.character
     this.constructHTML();
   }
 
@@ -59,6 +68,7 @@ class Modal {
     // Create the main dialog message
     this.dialog.innerHTML = `
       <section class="modal__section">
+      ${this.character ? this.constructCharacter() : ''}
         <p>${this.message}</p>
       </section>
     `;
@@ -69,6 +79,16 @@ class Modal {
     this.dialog.appendChild(this.menu);
     document.body.appendChild(this.dialog);
     this.constructButtons();
+  }
+
+  constructCharacter() {
+    return `
+      <div class="modal__character">
+        <img src="/cast/${this.character.id}.png"/>
+        <p>${this.character.name}</p>
+        <p>${this.character.description}</p>
+      </div>
+    `;
   }
 
   constructButtons() {
@@ -112,7 +132,8 @@ class QuestionModal extends Modal {
       this.close();
       const modal = new Modal({
         type: 'incorrect',
-        message: 'the answer is: ' + this.answer
+        message: 'the answer is: ' + this.answer,
+        character: this.character
       });
       modal.open();
     });
@@ -125,7 +146,8 @@ class QuestionModal extends Modal {
       this.close();
       const modal = new Modal({
         type: 'correct',
-        message: 'well done! it is ' + this.answer
+        message: 'well done! it is ' + this.answer,
+        character: this.character
       });
       modal.open();
     });
